@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Monotype Corsiva';
+  src: local('Monotype Corsiva'), url('/fonts/monotype-corsiva.woff2') format('woff2');
+  font-style: italic;
+  font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Monotype Corsiva', cursive, sans-serif;
+}
